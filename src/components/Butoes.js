@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Teclado extends Component {
+class Butoes extends Component {
     handleTargetNameClick = (e) => {
         this.props.onClick(e.target.name);
     }
@@ -37,4 +37,4 @@ class Teclado extends Component {
 }
 
 
-export default Teclado;
+export default Butoes;

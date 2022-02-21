@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Resultado from './components/Resultado';
-import Teclado from "./components/Teclado";
+import Butoes from "./components/Butoes";
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -86,7 +86,7 @@ class App extends Component {
         <div className="container-body">
           <Header />
           <Resultado result={this.state.result} />
-          <Teclado onClick={this.onClick} />
+          <Butoes onClick={this.onClick} />
         </div>
     );
   }
