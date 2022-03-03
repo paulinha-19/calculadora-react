@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import StyledResultado from './styled/StyledResultado'
 class Resultado extends Component {
     render() {
         let { result } = this.props;
         return (
-            <div className="resultado">
+            <StyledResultado>
                 <h3>{result}</h3>
-            </div>
+            </StyledResultado>
         );
     }
 }

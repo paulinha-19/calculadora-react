@@ -1,31 +1,10 @@
 body{
   background-color: rgb(34, 34, 34);
 }
-
-.titulo{
-text-align: center;
-color: #fff;
-}
 .container-body {
   max-width: 400px;
   margin: auto;
   margin-top: 3rem;
-}
-.resultado {
-  height: 3rem;
-  background-color: #22252D;
-  height: 100px;
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-end;
-  justify-content:flex-end;
-  padding-right: 0.5rem;
-  border-bottom: 3px solid #000;
-  border-radius: 20px 20px 0 0;
-}
-.resultado h3 {
-  font-size: 2rem;
-  color: #fff;
 }
 .container-buttons{
   border-radius: 0 0 20px 20px;
